@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservas</title>
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="/assets/fonts/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+     <!-- STYLES -->
+     <link rel="stylesheet" href="./style/reservas-pg.css" />
+    
+
+
+  </head>
+  <body>
+    <body>
+      <header id="header">
+        <nav class="container">
+          <a class="logo" href="#">Restaurante.</a>
+          <!-- menu -->
+          <div class="menu">
+            <ul class="grid">
+              <li><a class="title" href="#home">Início</a></li>
+              <li><a class="title" href="#reserva">Reservas</a></li>
+              <li><a class="title" href="#reserva-sl">Salao</a></li>
+              <li><i class='bx bx-user'></i></li>
+            </ul>
+          </div>
+          <!-- /menu -->
+        </nav>
+      </header>
+  
+      <main>
+         <!-- HOME -->
+        <section class="section" id="home">
+          <div class="container grid">
+            </div>
+            <div class="text">
+              <h2 class="title">Suas Reservas apareceram aqui</h2>
+              <p class="subtitle">Caso nao tenha reservado, reserve agora</p>
+              </p>
+              <a class="button" href="#reservas">Reserve seu lugar</a>
+            </div>
+          </div>
+        </section>
+  
+        <div class="divider-1"></div>
+
+        <!-- Reservas -->
+        <section class="section" id="reserva">
+          <div class="container grid">
+            <div class="text">
+              <h2 class="title">Reservas</h2>
+              <form>
+
+                <div class="form-group">
+                 <div><label class="subtitle">Digite o dia:</label></div>
+                  <input 
+                  type="date" 
+                  id="dtreserva" 
+                  name="dtreserva"  
+                  placeholder="dtreserva"/>
+                </div>
+
+                <div class="form-group">
+                  <div><label class="subtitle">Digite a qunatidade de pessoas de 1 a 15 pessoas:</label></div>
+                  <input type="number" 
+                  inputmode="numeric"
+                  id="qtdpessoas" 
+                  name="qtdpessoas"  
+                  placeholder="0-15" 
+                  min="0" 
+                  max="15"
+                  required/>
+                </div>
+                
+                <button class="button" type="submit">Entrar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+  
+        <div class="divider-2"></div>
+
+         <!-- RESERVAS-SALAO-->
+<section class="section" id="reserva-sl">
+  <div class="container grid">
+
+<div class="text">
+  <h2 class="title">Precisa de mais que 15 pessoas?</h2>
+  <br>
+  <a href="login.html"
+   class= "button"
+   ><i class="icon-whatsapp">
+    </i>Entre em contaro com a gente e reserve o salao</a>
+</div>
+
+
+
+<div class="link">
+  <ul class= "grid">
+    <li><i class="icon-phone"></i> 11 99845-6754</li>
+    <li><i class="icon-map-pin"></i>R. Amauri Souza</li>
+    <li><i class="icon-mail"></i>claudinhosgs@gmail.com</li>
+  </ul>
+</div>
+
+
+
+
+  
+
+</div>
+</section>
+
+<div class="divider-1"></div>
+
+    </main>
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo" href="#home">Restaurante.</a>
+          <p>©2021 Restalrante.</p>
+          <p>Todos os direitos reservados.</p>
+      </div>
+      
+      <div class="social">
+        <a href="https://instagram.com" target="_blank">
+          <i class="icon-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank">
+          <i class="icon-facebook"></i></a>
+      </div>
+      
+      </footer>
+
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+/*====  VARIABLES ============================ */
+:root {
+  --header-height: 4.5rem;
+
+  /* colors */
+  --hue: 159;
+  --logo-color1: #69B99D;
+  --logo-color2: #CCF4E6;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 36% 57%);
+  --bas-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
+
+  /* fonts */
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
+
+  --title-font:'Poppins', sans-serif;
+  --body-font:'DM Sans', sans-serif;
+}
